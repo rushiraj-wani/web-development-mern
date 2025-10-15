@@ -1,0 +1,49 @@
+Q1. What is HTML?
+->  Hyper Text Markup Language, It is structure of website/web application, It define what part of website, Skeleton.
+
+Q2. What is Tag and Element?
+-> Tags: Markup entity, Provides structure, meaning, formatting of content.
+   Element: Opening tag - Content - Closing tag.
+
+Q3. What is Opening and Closing Tag?
+-> Opening tag: Tags which don't need closing tag. (</br>).
+   Closing tag: Tags which require both opening and closing tag. (<p> </p>).
+
+Q4. What does <head> </head> tag contains?
+-> It contains all metadata/seo/title related content!
+
+Q5. What does <body> </body> tag contains?
+-> Entire content that display on website.
+
+Q6. What does <html> </html> tag contains?
+-> Starting Point of HTML5.
+
+Q7. Heading tag range?
+-> h1 to h6.
+
+Q8. Id vs Class?
+-> Id: Unique for everyone.
+   Class: For Grouping elements.
+
+Q9. What are different Emmets and their uses?
+-> p>a -> Insert a in p.
+   p{this is text} -> Insert text in p.
+   article+section -> Put elements aside.
+   p# -> Give ID to p.
+   p. -> Give Class to p.
+
+Q.10 What is Div tag?
+-> Generic tag, use as wrapping/container. Dont provide meaning!
+   Can create div with id and class using respective emmets. (eg:- .container, #junior).
+
+Q.11 Block vs Inline Elements?
+-> Block: Took all space of a row.
+          Always comes in new line.
+   Inline: Took required space.
+           Dont come to new line.
+
+Q.12 What is form?
+-> Structure to collect user input.
+
+Q.13 How to create form?
+-> Use <form></form> tag!

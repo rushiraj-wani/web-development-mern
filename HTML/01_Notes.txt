@@ -1,0 +1,31 @@
+* HTML: HyperText Markup Language.
+    - HyperText: WebPages are linked to other.
+    - Markup: Annotations/Tags use to markup content.
+
+* What is HTML?
+-> Use to define skeletion of webpage, Render the content in browser.
+
+* HTML Document Structure:
+    1. DOCTYPE Declaration (<!DOCTYPE html>) — Defines the document type.
+    2. Root HTML Element (<html lang="en">) — The container for all the HTML content.
+        - lang="en": In English language.
+    3. Head Section (<head>) — Contains meta information and external resources.
+    4. Body Section (<body>) — Where the visible content goes.
+
+* Detailed <head>: 
+    1. <meta charset="UTF-8" />: 
+        * Sets the character encoding to UTF-8 (supports most characters in all languages).
+        * Prevents weird character glitches.
+    2. <meta name="viewport" content="width=device-width, initial-scale=1.0" />:
+        * Makes your site responsive on mobile devices.
+        * Ensures the layout adapts to different screen sizes.
+    3. <meta name="description" content="Learn HTML with a complete beginner's guide."/>:
+        * Gives search engines a summary of the page.
+        * Often shown in Google search results.
+    4. <meta name="keywords" content="html, css, javascript" />:
+        * Suggested keywords for search engines.
+    5. <meta name="author" content="Rushiraj Wani" />:
+        * Identifies the author of the page.
+    6. <title>: Sets the title of the web page, Important for SEO and user experience.
+    7. <link>: add external resources like css, favicon, etc...
+    8. <script>: Loads an external JavaScript file, placed at the bottom of <body> for better performance.
