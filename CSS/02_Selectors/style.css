@@ -1,0 +1,57 @@
+/* Universal Selector */
+* {
+  background-color: rgb(196, 190, 235);
+}
+
+/* Element Selector */
+h1 {
+  color: blue;
+}
+
+/* Class Selector */
+.intro {
+  background-color: cornflowerblue;
+  color: rgb(255, 254, 253);
+}
+
+/* ID Selector */
+#section-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Nested Selector */
+.parent p {
+  color: blue;
+}
+
+/* SASS Selector */
+.button {
+  background-color: rgb(148, 197, 179);
+
+  &:hover {
+    /* This uses the & selector */
+    background-color: rgb(80, 139, 174);
+  }
+
+  &.primary-btn {
+    /* This uses the & selector to create a compound selector */
+    font-weight: bold;
+  }
+}
+
+/* Attribute Selector */
+input[type="text"] {
+  background-color: lightyellow;
+}
+
+/* Pseudo-class Selector */
+a:hover {
+  color: red;
+}
+
+/* Grouping Selector */
+h2,
+h3 {
+  color: green;
+}
