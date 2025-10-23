@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  background-color: #f0f0f0;
+  height: 200px;
+  width: 300px;
+  position: relative;
+  margin: 50px auto;
+}
+
+.circle {
+  background-color: #bc002d;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  position: relative;
+  top: 40px;
+  left: 90px;
+}
